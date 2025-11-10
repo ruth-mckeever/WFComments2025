@@ -22,6 +22,6 @@ public class UserComment
     public UserComment(string rawComment)
     {
         this.rawComment = rawComment;
-        sanitizedComment = SanitizeService.SanitizeTextJSON(rawComment);
+        sanitizedComment = SanitizeService.SanitizeTextXML(rawComment);
     }
 }
